@@ -74,4 +74,8 @@ body {
     #r_area #bt {
         font-size: 72px;
     }
+
+    #r_area hr {
+        height: 2px;
+    }
 }
