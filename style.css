@@ -28,11 +28,12 @@ body {
 }
 
 #r_area input:-webkit-autofill {
-    background-color: rgb(37, 37, 37);
-    -webkit-box-shadow: 0 0 0 30px rgb(37, 37, 37) inset;
-    -webkit-text-fill-color: white !important;
-    -webkit-
+    -webkit-text-fill-color: black !important;
     border: none;
+}
+
+#r_area input:-internal-autofill-selected {
+    background-color: rgb(37, 37, 37) !important;
 }
 
 #r_area hr {
