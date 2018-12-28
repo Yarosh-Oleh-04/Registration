@@ -29,7 +29,8 @@ body {
 
 #r_area input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px rgb(37, 37, 37) inset;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: rgb(37, 37, 37);
+    border: none;
 }
 
 #r_area hr {
