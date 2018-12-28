@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Hme4C4_7iosf3emf/abstract-background-with-lines-full-hd-resolution-1920x1080_b1gst6bh__F0000.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+#r_area {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(37, 37, 37);
+    padding-block-end: 50px;
+    border-radius: 5px;
+    padding: 50px;
+    align-items: center;
+}
+
+#r_area input {
+    width: 100%;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    margin: 0 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+#r_area input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(37, 37, 37) inset;
+    -webkit-text-fill-color: white;
+}
+
+#r_area hr {
+    transition: all .5s;
+    width: 100%;
+    border: none;
+    margin: 5px 0 25px 0;
+    height: 1px;
+    background-color: wheat;
+}
+
+#bt {
+    background: orangered;
+    height: auto;
+    width: 150px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 2vw;
+    border: 1px orangered solid;
+    cursor: pointer;
+    user-select: none;
+    padding: 5px 15px;
+}
+
+#bt:active {
+    background: rgb(130, 35, 0);
+}
+
+@media screen and (max-width: 130vh){
+    #r_area {
+        width: 80vw;
+    }
+
+    #r_area input {
+        font-size: 72px;
+    }
+
+    #r_area #bt {
+        font-size: 72px;
+    }
+}
